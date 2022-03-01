@@ -1,0 +1,25 @@
+{
+  "name": "Tienda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conection.js",
+  "dependencies": {
+    "mariadb": "^2.5.6",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.17.0",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "serverless-offline": "^8.5.0",
+    "supertest": "^6.2.2",
+    "node-input-validator": "^4.5.0",
+    "bcryptjs": "^2.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+ObtenerUsusario:
+  handler: src/Usuarios/Get.Get
+  events:
+    - http:
+        method: GET
+        path: /Usuario/
+        cors: true
+
+crearUsusario:
+  handler: src/Usuarios/Post.Post
+  events:
+    - http:
+        method: Post
+        path: /Usuario/
+        cors: true
